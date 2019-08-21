@@ -1,12 +1,12 @@
 class Account
 
-  attr_accessor :amount
+  attr_accessor :balance
 
   def initialize
-    @amount
+    @balance = 0
   end
 
   def deposit(amount)
-    @amount = amount
+    @balance += amount
   end
 end

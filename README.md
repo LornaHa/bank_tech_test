@@ -25,3 +25,10 @@ As a Customer
 So that I can have accurate account details
 I want to be able to see the date, amount and balance on my bank statement
 ```
+
+## Edge Cases
+
+```
+raises error if user enters a string
+raises error if user enters a negative number
+```
